@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "start": "webpack-dev-server --progress --colors"
+  },
   "name": "webpack-helloworld",
   "version": "1.0.0",
   "description": "Hello World for webpack(Typescript)",
@@ -6,5 +10,19 @@
   "repository": "git@github.com:jahrmarkt/webpack-helloworld.git",
   "author": "Marko Jahn",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@types/react": "^16.4.17",
+    "@types/react-dom": "^16.0.9",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.1.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
 }
