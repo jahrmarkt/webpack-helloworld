@@ -1,0 +1,10 @@
+{
+  "name": "webpack-helloworld",
+  "version": "1.0.0",
+  "description": "Hello World for webpack(Typescript)",
+  "main": "Hello.tsx",
+  "repository": "git@github.com:jahrmarkt/webpack-helloworld.git",
+  "author": "Marko Jahn",
+  "license": "MIT",
+  "private": false
+}
